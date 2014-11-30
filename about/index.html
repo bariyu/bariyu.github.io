@@ -1,0 +1,54 @@
+---
+layout: default
+title: 	About
+article: true
+---
+
+<header class="clean" style="height: 350px; background-image: url({{ site.cover }});">
+	{% include top.html %}
+	<div id="home-title">
+		<a href="{{ site.url }}">
+			<img src="{{ site.icon }}" class="site-icon">
+		</a>
+	</div>
+</header>
+
+<article class='about' id='article'>
+<section class='content'>
+            <p class='intro'>
+                I am <strong>Baran Kucukguzel</strong>, a software engineer at
+                <a href="http://www.milsoft.com.tr">  <b>MilSOFT</a> Software Technologies Inc </b> 
+                and a MSc candidate at <a href="https://www.ceng.metu.edu.tr">  
+                <b>Middle East Technical University - Department of Computer Engineering</b> </a>.
+                I work on <a href="http://dds.milsoft.com.tr/en/dds-home.php"> 
+                <b> MilSOFT DDS</b> </a> which is a nationally leading implementation of the
+￼				Object Management Group (OMG)'s Data Distribution Service (DDS) messaging
+￼				standard for both enterprise and real-time systems 
+                as my full time job.
+            </p>
+
+            <!--p>
+                I am maker of <a href='http://ahmetalpbalkan.github.io/go-linq'>Go-LINQ</a>,
+                <a href='http://dailybbble.herokuapp.com/'>Dailybbble</a>,
+                <a href='http://ahmetalpbalkan.github.io/In-Stock/'>In-Stock app</a>,
+                <a href='https://github.com/ahmetalpbalkan/orman'>ORMan framework</a>,
+                <a href='https://github.com/ahmetalpbalkan/azurefs'>AzureFS</a> and 
+                <a href='https://ollaa.com'>ollaa social network</a>.
+            
+                I code in C#, Go, Python, Java and Objective-C. I'm a hobbyist programmer,
+                fan of minimalism and simplicity. I love developing user-facing products. Feel free to 
+                <a href='mailto:ahmetalpbalkan+hi@gmail.com' rel='nofollow'>drop me a line</a>.
+            </p-->
+
+            <p>
+                This is my personal blog where I mostly write about on technical stuff.
+            </p>
+        </section>
+</article>
+<footer class="{% if post.dark %}dark{% else %}clean{% endif %}" style="background-image: url({% if post.image %}{{ post.image }}{% else %}{{ site.cover }}{% endif %});{% if post.background_position %} background-position: {{ post.background_position }};{% endif %}height: 75%; min-height: 500px;">
+	<div id="nav-icon" style="top: 25px;">
+		<a class="scroll" data-speed="1000" href="#article"><span class="genericon genericon-collapse"></span></a>
+	</div>
+	<p class="copyright">&copy;{{ site.time | date: "%Y" }}, <a href="{{ site.copyright.url }}" target="_blank">{{ site.copyright.author }}</a>. <a href="{{ site.copyright.type_url }}" target="_blank">{{ site.copyright.type_title }}</a>.</p>
+</footer>
+<script src="/assets/js/smooth-scroll.js"></script>

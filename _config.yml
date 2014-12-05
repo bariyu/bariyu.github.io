@@ -1,0 +1,46 @@
+# Dependencies
+markdown:	    redcarpet
+highlighter:	true
+
+# Permalinks
+permalink:	/blog/:title
+
+# Setup
+title:		Baran Kucukguzel
+tagline:	'Personal Blog'
+description:	'My personal blog.'
+url:		    /
+
+author:
+  name:		'Baran Kucukguzel'
+  url:		https://www.linkedin.com/pub/baran-küçükgüzel/76/84/427
+
+paginate:	5
+
+# Custom vars
+icon:		/assets/images/icon.png
+cover:		/assets/images/cover.jpg
+
+social:
+  - icon:	twitter
+    url:	https://twitter.com/barankucukguzel
+    desc:	Follow me on twitter
+
+  - icon:   linkedin
+    url:    https://www.linkedin.com/pub/baran-küçükgüzel/76/84/427
+    desc:   Find me on linkedin
+
+  - icon:	github
+    url:	https://github.com/bariyu
+    desc:	Fork me on github
+    
+menu:
+  - title:	Home
+    url:	/
+    
+  - title:	About
+    url:	/about
+    
+copyright:
+  author:	Baran Kucukguzel
+  url:		/

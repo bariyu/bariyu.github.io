@@ -15,6 +15,9 @@ By spending <b>$0</b> for a year! Only if you are student!
   - <a href="https://www.namecheap.com">  <b>Namecheap.com</b></a>
   - <a href="http://jekyllrb.com">  <b>Jekyll</b></a>
   - <a href="https://github.com/camporez/Thinny">  <b>Thinny</b></a>
+  - <a href="http://dillinger.io">  <b>Dillinger</b></a>
+  - <a href="https://disqus.com">  <b>Disqus</b></a>
+  - <a href="http://www.google.com/analytics/">  <b>Google Analytics</b></a>
  
 #Github Student Developer Pack
 <a href="https://education.github.com/pack">  <b>Github Student Developer Pack</b></a> is 
@@ -47,3 +50,22 @@ template directory containing raw text files in various formats, runs it through
 <a href="https://github.com/camporez/Thinny">  <b>Thinny</b></a> is an open source theme 
 for Jekyll which i like a lot, by <a href="https://github.com/camporez">  
 <b>camporez</b></a>.
+
+# Dillinger
+<a href="http://dillinger.io">  <b>Dillinger</b></a> is a cloud-enabled, mobile-ready, 
+offline-storage, AngularJS powered HTML5 Markdown editor. I use dilligner to write my 
+posts for jekyll (jekyll uses markdown files to generate your static html files). Write 
+your markdown files using dillinger and see their HTML conversation at the same time, 
+amazing huh?
+
+#Disqus
+<a href="https://disqus.com">  <b>Disqus</b></a> is a very cool tool that can be plugged 
+into various platforms to enable comments. For this jekyll based blog it is a JavaScript 
+code snippet that Disqus gave me to plug into my HTML templates. It is pretty simple and 
+powerful!
+
+#Google Analytics
+<a href="http://www.google.com/analytics/">  <b>Google Analytics</b></a> is another simple
+ but powerful plugin that can be embedded easily into your website just like Disqus. Get 
+ your JavaScript code snippet from Google Analytics and put it into your HTML templates 
+ and you have that valuable data about your website and its visitors!

@@ -1,10 +1,2 @@
 #My Personal Blog
-
-##About
-Thinny is a beautiful theme for [Jekyll](http://jekyllrb.com/).
-
-(if you're looking for the [Ghost](http://ghost.org) release of the theme, check [this page](https://github.com/camporez/Thinny/releases/tag/v0.3-alexandra))
-
-##Demo
-[![Preview image](https://f.cloud.github.com/assets/5755892/2002329/bdb5a052-85ed-11e3-8e00-a892910b6917.png)](http://camporez.com/)
-The above image is a preview of how the post header looks on Thinny.
+Build using [Jekyll](http://jekyllrb.com) and [Thinny](https://github.com/camporez/Thinny/releases/tag/v0.3-alexandra) which is a beautiful theme for jekyll.

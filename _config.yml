@@ -1,6 +1,11 @@
 # Dependencies
-markdown:	    redcarpet
+markdown:	    kramdown
 highlighter:	true
+gems: [jekyll-paginate, redcarpet, kramdown]
+
+# redcarpet conf
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
 # Permalinks
 permalink:	/blog/:title
@@ -33,14 +38,14 @@ social:
   - icon:	github
     url:	https://github.com/bariyu
     desc:	Fork me on github
-    
+
 menu:
   - title:	Home
     url:	/
-    
+
   - title:	About
     url:	/about
-    
+
 copyright:
   author:	Baran Kucukguzel
   url:		/

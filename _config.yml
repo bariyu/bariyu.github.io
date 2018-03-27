@@ -1,7 +1,7 @@
 # Dependencies
 markdown:	    kramdown
 highlighter:	true
-gems: [jekyll-paginate, redcarpet, kramdown]
+plugins: [jekyll-paginate, redcarpet, kramdown]
 
 # redcarpet conf
 redcarpet:
@@ -23,7 +23,7 @@ author:
 paginate:	5
 
 # Custom vars
-icon:		/assets/images/icon.png
+icon:		/assets/images/pp.jpg
 cover:		/assets/images/cover.jpg
 
 social:

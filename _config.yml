@@ -49,3 +49,5 @@ menu:
 copyright:
   author:	Baran Kucukguzel
   url:		/
+
+theme: jekyll-theme-minimal
